@@ -16,7 +16,7 @@
  *
  */
 
-//go:generate protoc -I ../helloworld --go_out=plugins=grpc:../helloworld ../helloworld/helloworld.proto
+//go:generate protoc -I ../helloworld --go-grpc_out=../helloworld ../helloworld/helloworld.proto
 
 package main
 
@@ -25,8 +25,8 @@ import (
 	"log"
 	"net"
 
-	"github.com/rickypai/golang-boilerplate/grpc/common"
-	pb "github.com/rickypai/golang-boilerplate/protobufs/helloworld"
+	"github.com/edokimok/golang-boilerplate/grpc/common"
+	pb "github.com/edokimok/golang-boilerplate/protobufs/helloworld"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"

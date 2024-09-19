@@ -1,11 +1,11 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/rickypai/golang-boilerplate/helloworld/hello"
+	"github.com/edokimok/golang-boilerplate/helloworld/hello"
+	hello2 "github.com/edokimok/golang-boilerplate/helloworld_hello2"
 )
 
 func main() {
-	fmt.Println(hello.HelloWorld())
+	println("hello: " + hello.HelloWorld())
+	println("hello2: " + hello2.HelloWorld())
 }

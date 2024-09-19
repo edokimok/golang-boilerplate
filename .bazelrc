@@ -1,3 +1,0 @@
-# .bazelrc contains default flags for the project when invoking Bazel
-
-test --test_output=errors
