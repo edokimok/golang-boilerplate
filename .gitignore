@@ -1,3 +1,5 @@
+.idea
+
 # Binaries for programs and plugins
 *.exe
 *.dll
@@ -15,6 +17,9 @@
 
 # Bazel
 /bazel-*
+.bazelbsp
+MODULE.bazel
+MODULE.bazel.lock
 
 # Built-Binaries
 /golang-boilerplate
